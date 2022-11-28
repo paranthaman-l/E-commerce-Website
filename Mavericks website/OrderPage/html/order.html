@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderPage</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/order.css">
+    <!-- Icon Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/cc1d67feb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header --> 
+    <header>
+        <!-- Navbar -->
+        <!-- Left Side Navbar -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#"><img src="../../Common Img/M_logo.png" alt=""></a>
+            <!-- Search Bar -->
+            <div class="search_container">
+                <input type="text" name="" id="searchBox" placeholder="Search store,brand and product">
+                <box-icon name='search-alt' id="search"></box-icon>
+            </div>
+            <!-- Right Side Navbar -->
+            <div class="right_nav">
+                <!-- For Mobile Response -->
+                <div class="smallWindow">
+                    <div class="menutag" onclick="menutagClicked()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                        <div class="list">
+                            <ul>
+                                <a href="#"><li>Location<i class="fa-solid fa-location-dot"></i></li></a>
+                                <a href="#"><li>Cart<box-icon name='shopping-bag' type='solid' class="cartIcon"></box-icon></li></a>
+                                <a href="#"><li>Profile<i class="fa-solid fa-user"></i></li></a>
+                            </ul>
+                    </div>
+                </div>
+                <!-- For Desktop site -->
+                <div class="options">
+                    <ul>
+                        <a href="#"><li><i class="fa-solid fa-location-dot"></i></li></a>
+                        <a href="#"><li><box-icon name='shopping-bag' type='solid' class="cartIcon"></box-icon></li></a>
+                        <a href="#"><li><i class="fa-solid fa-user"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <!-- Order Page -->
+    <div class="order_page">
+        <!-- Filter Content(left side)-->
+        <div class="filter_container">
+            <div class="filters">
+                <h2>Filters </h2>
+                <div class="filter">
+                    <div class="filter_name filter1  selected">Category <i class="fa-solid fa-chevron-down" onclick="downArrowClicked1()" ></i></div>
+                    <div class="filter_list">
+                        <ul class="filter_btns">
+                            <button><li class="btn btn_clicked" data-filter="all">All</li></button>
+                            <button><li class="btn" data-filter="vegetables">Vegetables</li></button>
+                            <button><li class="btn" data-filter="fruits">Fruits</li></button>
+                            <button><li class="btn" data-filter="staples">Staples</li></button>
+                            <button><li class="btn" data-filter="snacks">Snacks</li></button>
+                            <button><li class="btn" data-filter="packagedfood">Packaged Food</li></button>
+                            <button><li class="btn" data-filter="dairy">Dairy & Eggs</li></button>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter_name filter2">Rating <i class="fa-solid fa-chevron-down"onclick="downArrowClicked2()" ></i></div>
+                    <div class="filter_list">
+                        <ul>
+                            <a href="#"><li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li></a>
+                            <a href="#"><li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li></a>
+                            <a href="#"><li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li></a>
+                            <a href="#"><li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li></a>
+                            <a href="#"><li><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter_name filter3">Cost <i class="fa-solid fa-chevron-down"onclick="downArrowClicked3()" ></i></div>
+                    <div class="filter_list">
+                        <ul>
+                            <a href="#"><li>₹99 below</li></a>
+                            <a href="#"><li>₹199 below</li></a>
+                            <a href="#"><li>₹299 below</li></a>
+                            <a href="#"><li>₹499 above</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter_name filter4">Brand <i class="fa-solid fa-chevron-down"onclick="downArrowClicked4()" ></i></div>
+                    <div class="filter_list">
+                        <ul>
+                            <a href="#"><li>TATA</li></a>
+                            <a href="#"><li>Philips</li></a>
+                            <a href="#"><li>SONY</li></a>
+                            <a href="#"><li>Lenova</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter_name filter5">Location <i class="fa-solid fa-chevron-down"onclick="downArrowClicked5()" ></i></div>
+                    <div class="filter_list">
+                        <ul>
+                            <a href="#"><li>near by 1 km</li></a>
+                            <a href="#"><li>near by 2 km</li></a>
+                            <a href="#"><li>near by 5 km</li></a>
+                            <a href="#"><li>near by 10 km</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter_name filter6">Organic <i class="fa-solid fa-chevron-down"onclick="downArrowClicked6()" ></i></div>
+                    <div class="filter_list">
+                        <ul>
+                            <a href="#"><li><input type="checkbox">No</li></a>
+                            <a href="#"><li><input type="checkbox">Organic</li></a>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Promotions -->
+            <div class="promotion">
+                <a href="#"><img src="../img/mamas kitchen.png" alt=""></a>
+            </div>
+        </div>
+        <!-- Products details -->
+        <div class="product_container">
+        <div class="products">
+            <!-- box 1 -->
+            <div class="box" data-item="tomato" data-category="vegetables">
+                <img class="product_img" src="../img/tomato.jpeg" alt="">
+                <div class="product_name">Tomato</div>
+                <div class="product_price"><p>₹</p><p id="price">30</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 2 -->
+            <div class="box" data-item="moongdal" data-category="staples">
+                <img class="product_img" src="../img/moongdal.webp" alt="">
+                <div class="product_name">Moong Dal</div>
+                <div class="product_price"><p>₹</p><p id="price">60</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 3 -->
+            <div class="box" data-item="onion" data-category="vegetables">
+                <img class="product_img" src="../img/onion.jpg" alt="">
+                <div class="product_name">Onion</div>
+                <div class="product_price"><p>₹</p><p id="price">60</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 4 -->
+            <div class="box" data-item="fortuneoil" data-category="staples">
+                <img class="product_img" src="../img/fortuneoil.webp" alt="">
+                <div class="product_name">Fortune Oil</div>
+                <div class="product_price"><p>₹</p><p id="price">170</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 5 -->
+            <div class="box" data-item="uraddal" data-category="staples">
+                <img class="product_img" src="../img/uraddal.webp" alt="">
+                <div class="product_name">Urad Dal</div>
+                <div class="product_price"><p>₹</p><p id="price">131</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 6 -->
+            <div class="box" data-item="ghee" data-category="staples">
+                <img class="product_img" src="../img/ghee.webp" alt="">
+                <div class="product_name">Ghee</div>
+                <div class="product_price"><p>₹</p><p id="price">504</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 7 -->
+            <div class="box" data-item="apple" data-category="fruits">
+                <img class="product_img" src="../img/apple.jpg" alt="">
+                <div class="product_name">Apple</div>
+                <div class="product_price"><p>₹</p><p id="price">200</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 8 -->
+            <div class="box" data-item="madanglechips" data-category="snacks">
+                <img class="product_img" src="../img/madanglechips.webp" alt="">
+                <div class="product_name">Chips</div>
+                <div class="product_price"><p>₹</p><p id="price">35</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 9 -->
+            <div class="box" data-item="boost" data-category="snacks">
+                <img class="product_img" src="../img/boost.webp" alt="">
+                <div class="product_name">Boost</div>
+                <div class="product_price"><p>₹</p><p id="price">489</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 10 -->
+            <div class="box" data-item="maggi" data-category="packagedfood">
+                <img class="product_img" src="../img/maggi.webp" alt="">
+                <div class="product_name">2-min Maggi</div>
+                <div class="product_price"><p>₹</p><p id="price">49</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 11 -->
+            <div class="box" data-item="7up" data-category="snacks">
+                <img class="product_img" src="../img/7up.webp" alt="">
+                <div class="product_name">7 up</div>
+                <div class="product_price"><p>₹</p><p id="price">30</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 12 -->
+            <div class="box" data-item="cheese" data-category="dairy">
+                <img class="product_img" src="../img/cheese.jfif" alt="">
+                <div class="product_name">Cheese</div>
+                <div class="product_price"><p>₹</p><p id="price">130</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+            <!-- box 13 -->
+            <div class="box" data-item="saffolaoats" data-category="packagedfood">
+                <img class="product_img" src="../img/saffolaoats.webp" alt="">
+                <div class="product_name">Saffola Oats</div>
+                <div class="product_price"><p>₹</p><p id="price">130</p></div>
+                <div class="product_btn"><button class="add_cart_btn">Add to Cart</button><button class="buy_btn">Buy Now</button></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Link JS -->
+    <script src="../js/order.js"></script>
+</body>
+</html>
