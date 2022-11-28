@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/payment.css">
+    <!-- Icon Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/cc1d67feb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header --> 
+    <header>
+        <!-- Navbar -->
+        <!-- Left Side Navbar -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#"><img src="../../Common Img/M_logo.png" alt=""></a>
+            <!-- Search Bar -->
+            <div class="search_container">
+                <input type="text" name="" id="searchBox" placeholder="Search store,brand and product">
+                <box-icon name='search-alt' id="search"></box-icon>
+            </div>
+            <!-- Right Side Navbar -->
+            <div class="right_nav">
+                <!-- For Mobile Response -->
+                <div class="smallWindow">
+                    <div class="menutag" onclick="menutagClicked()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                        <div class="list">
+                            <ul>
+                                <a href="#"><li>Location<i class="fa-solid fa-location-dot"></i></li></a>
+                                <a href="#"><li>Cart<box-icon name='shopping-bag' type='solid' class="cartIcon"></box-icon></li></a>
+                                <a href="#"><li>Profile<i class="fa-solid fa-user"></i></li></a>
+                            </ul>
+                    </div>
+                </div>
+                <!-- For Desktop site -->
+                <div class="options">
+                    <ul>
+                        <a href="#"><li><i class="fa-solid fa-location-dot"></i></li></a>
+                        <a href="#"><li><box-icon name='shopping-bag' type='solid' class="cartIcon"></box-icon></li></a>
+                        <a href="#"><li><i class="fa-solid fa-user"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <script src="../js/payment.js"></script>
+</body>
+</html>
