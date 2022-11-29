@@ -130,5 +130,11 @@ header{
     .list,.options{
         display: none;
     }
+    .nav{
+        margin-top: 10px;
+    }
+}
 
+.paymentPage{
+    margin-top: 100px;
 }

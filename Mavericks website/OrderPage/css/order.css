@@ -50,7 +50,7 @@ header{
     font-weight: 600;
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, 0.555);
-    text-indent: 5px;
+    text-indent: 15px;
     border-radius: 5px;
 }
 #search{
@@ -126,11 +126,13 @@ header{
         font-size: 22px;
         transition: .5s ease-in-out;
         cursor: pointer;
-    }
+    }   
     .list,.options{
         display: none;
     }
-
+    .nav{
+        margin-top: 10px;
+    }
 }
 /* Order Page */
 .order_page{
@@ -213,10 +215,11 @@ transition:0.3s ease-in-out;
 /* Products Details */
 .products{
     /* margin-top: 20px; */
-    max-width: 1200px;
+    max-width: 100%;
     display: flex;
+    margin: 0 auto;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 15px;
 }
 .box{
     height: 280px;
@@ -227,6 +230,7 @@ transition:0.3s ease-in-out;
     align-items: center;
     font-size: 18px;
     transition: 0.4s ease-in-out;
+    transition-delay: .2s;
     padding: 15px 5px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 0.5px 1px 0px, rgba(60, 64, 67, 0.15) 0px 0.5px 1.5px 0.5px;
 }
@@ -239,6 +243,7 @@ transition:0.3s ease-in-out;
     height: 160px;
     border-radius: 4px;
     cursor: pointer;
+    /* margin-left: 15px;    */
 }
 .product_price{
     display: flex;
@@ -262,3 +267,7 @@ transition:0.3s ease-in-out;
 .product_btn button:hover{
     opacity: 0.95;
 }
+.product_price{
+    font-family: 'alata',sans-serif !important
+}
+/* Add to Cart */

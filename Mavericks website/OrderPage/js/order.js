@@ -84,3 +84,9 @@ function setActiveBtn(e) {
     })
     e.target.classList.add('btn_clicked')
 }
+// Cart button clicking event
+const cartbtn = document.querySelectorAll('.add_cart_btn');
+const cartIcon = document.getElementsByClassName('cartIcon');
+function addToCart(){
+    
+}
