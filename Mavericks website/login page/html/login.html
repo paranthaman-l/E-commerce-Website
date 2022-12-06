@@ -1,0 +1,67 @@
+<html>
+<head>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+        <body>
+            <!-- mavericks logo -->
+            <div id="logo">
+                <img src="" alt="Mavericks logo">
+            </div>
+            <!-- Login form starts here -->
+            <div id="loginbox">
+            <form action="">
+              <!-- sign in with google box -->
+                    <div id="googlebox">
+                      <script>
+                        function onSuccess(googleUser) {
+                          console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+                        }
+                        function onFailure(error) {
+                          console.log(error);
+                        }
+                        function renderButton() {
+                          gapi.signin2.render('googlebox', {
+                            'scope': 'profile email',
+                            'width': 200,
+                            'height': 30,
+                            'longtitle': true,
+                            'theme': 'dark',
+                            'onsuccess': onSuccess,
+                            'onfailure': onFailure
+                          });
+                        }
+                        </script>
+                      <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+                    </div>
+                    <!-- get mail and send otp -->
+                    <h5 id="or">(or)</h5>
+                  <div class="mailandotp">
+                      <input type="text" name="username" id="userid" placeholder="Email or phone number" required><br>
+                      <button type="submit" id="generateotp"><b>Generate OTP</b></button><br>
+                  </div>
+            <!-- otp verification box -->
+                  <div class="verification">
+                      <input type="password" name="password" id="pw" placeholder="Enter OTP" required><br>
+                      <button id="verify"><b>Verify</b></button><br>
+                  </div>
+              <!-- signup button -->
+                    <div id="signuptext">
+                        <span id="newuser"><b>New User ?</b></span>
+                        <span id="signup"><b><u>create a new account</u></b></span>
+                    </div>
+                </div>
+            </form>
+        </body>
+</html>
+</body>
+</html>
