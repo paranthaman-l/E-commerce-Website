@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.form-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/95425/pexels-photo-95425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  font-family: "Exo 2", sans-serif;
+  position: relative;
+  margin: 5%;
+  width: 450px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.497);
+  /* background-image: url("https://images.pexels.com/photos/95425/pexels-photo-95425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.2) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.form h1 {
+  position: relative;
+  font-size: 1 rem;
+  text-align: start;
+  width: 70%;
+  /* padding-left: 10px; */
+  /* padding-right: 10%; */
+  /* padding-bottom: 5px; */
+  /* margin-bottom: 0.8rem; */
+}
+.form h2 {
+  position: relative;
+  font-size: 1 rem;
+  text-align: right;
+  width: 80%;
+  margin-bottom: 10px;
+  /* padding-left: 10px; */
+  padding-right: 10%;
+}
+.form h3 {
+  position: relative;
+  font-size: 1 rem;
+  text-align: center;
+  margin-right: 90px;
+  width: 90%;
+  margin-bottom: 10px;
+  /* padding-left: 10px; */
+  padding-right: 15%;
+}
+.form-inputs {
+  margin-bottom: 0.6rem;
+  width: 80%;
+}
+.form-inputs p {
+  font-size: 15px !important;
+  /* margin-top: px; */
+  color: red;
+}
+
+.form-input::placeholder {
+  color: rgba(38, 37, 37, 0.619);
+  font-size: 18px;
+  text-align: left;
+  align-content: flex-start;
+}
+.form-input-button {
+  font-family: "Lora", serif;
+  width: 30%;
+  height: 30px;
+  margin-top: 6px;
+  border-radius: 8px;
+  background-color: rgba(210, 24, 24, 0.853);
+  outline: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 500;
+}
+.form-input-button:hover {
+  cursor: pointer;
+  background-color: rgba(10, 153, 153, 0.656);
+  color: rgba(18, 10, 0, 0.437);
+}
+.form-input {
+  display: block;
+  padding-left: 10px;
+  border-color: rgba(0, 0, 0, 0.586);
+  outline: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+}
+.form-inputs-login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  width: 80%;
+  text-align: center;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bebas+Neue&family=Kenia&family=La+Belle+Aurore&family=Zen+Dots&display=swap");
+.blackbox {
+  background-color: black;
+  height: 220px;
+  width: 100%;
+  position: relative;
+  color: aliceblue;
+  display: flex;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  bottom: 0;
+  left: 0;
+  z-index: 10 !important;
+}
+.blackbox .col1 {
+  color: aliceblue;
+  height: 200px;
+  width: 33.33%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.blackbox .col2 {
+  color: aliceblue;
+  height: 200px;
+  width: 33.33%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.blackbox .col3 {
+  color: aliceblue;
+  height: 150px;
+  width: 33.33%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.blackbox2 {
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 10px;
+  margin: 0;
+}
+.cc1 {
+  background-color: rgba(0, 0, 0, 0.951);
+  position: relative;
+  padding: 6px;
+  width: 500px;
+}
+.cc2 {
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.h1 {
+  font-size: 10px;
+}
+/* @media screen and (max-width:950px) {
+    
+    .blackbox{
+        background-color: black;
+        height: 70px;
+        width: 100%;
+        position: relative;
+        color: aliceblue;
+        display: flex;
+        font-family: 'Amatic SC', cursive;
+        font-size: 10px;
+        
+    }
+    .blackbox .col1{
+        color: aliceblue;
+        height:70px;
+        width: 33.33%;
+        background-color:rgb(0, 0, 0);
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .blackbox .col2{
+        color: aliceblue;
+        height: 70px;
+        width: 33.33%;
+        background-color:rgb(0, 0, 0);
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .blackbox .col3{
+        color: aliceblue;
+        height:100px;
+        width: 33.33%;
+        background-color:rgb(0, 0, 0);
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .blackbox2{
+        height: 50px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        font-size: 10px;
+        margin: 0;
+        
+    }
+    .cc1{
+        background-color:rgba(0, 0, 0, 0.951);
+        position:relative;
+        padding:6px;
+        width:500px;
+    }
+    .cc2{
+        position:relative;
+        left:40px;
+        bottom:20px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .h1{
+        font-size:10px;
+    }
+} */

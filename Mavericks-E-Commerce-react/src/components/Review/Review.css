@@ -1,0 +1,23 @@
+.Review_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: relative;
+  left: 8%;
+  float: left;
+  margin-top: -70px;
+}
+.single_review {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 63%;
+}
+.single_review img {
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.single_review_detail {
+  margin-left: 20px;
+}

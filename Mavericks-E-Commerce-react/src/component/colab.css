@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bebas+Neue&family=Kenia&family=La+Belle+Aurore&family=Zen+Dots&display=swap");
+.colab {
+  height: 40%;
+  /* background-image: linear-gradient(to bottom, #2c3e50, #4ca1af) !important; */
+  /* background-image: linear-gradient(to right, #98b49dd0, #74888af7) */
+  background-color: lightgray;
+
+}
+.colabname {
+  font-family: "Anton", sans-serif;
+  height: 70px;
+  width: 436px;
+  left: 41%;
+  top: 20px;
+  position: relative;
+  font-size: 40px;
+  margin-top: -150px;
+  margin-bottom: 60px;
+}
+.e1 {
+  margin-left: 350px;
+  top: 63px;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  width: 30%;
+  text-shadow: 10px black;
+  z-index: 100;
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.e1 a{
+  margin-left: 100px;
+}
+.e2 {
+  margin-left: 950px;
+  top: -3px;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  position: relative;
+}
+.e3 {
+  padding-left: 1148px;
+  top: -59px;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  position: relative;
+}
+
+.e1 > img{
+  position: absolute;
+  height: 100px;
+}

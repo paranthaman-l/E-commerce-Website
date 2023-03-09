@@ -1,0 +1,24 @@
+.feedbackDive{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.form h2{
+text-align: left;
+margin-bottom: 50px;
+margin-left: 70px;
+}
+.form {
+    border: none;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.feedbackDive{
+    background:rgba(0,0,0,0.1) url("https://res.cloudinary.com/do4m8xtim/image/upload/v1675185723/pngtree-taobao-vector-creative-technology-online-shopping-illustration-computer-finger-poster-picture-image_1110799-transformed_vqvqhm.png");
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}

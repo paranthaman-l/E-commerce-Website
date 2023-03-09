@@ -1,0 +1,178 @@
+.cart_window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  transition: all 1s ease-in-out;
+  left: 0;
+}
+.cart_container {
+  overflow: scroll;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  height: 100%;
+  user-select: none;
+}
+.cart_box {
+  float: right;
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+}
+.top {
+  padding: 20px 0 0 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+.top > button {
+  background-color: transparent;
+  font-size: 19px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin-right: 7px;
+  margin-top: 5px;
+}
+.top > p > span {
+  color: #0047ff;
+}
+.cart_empty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.bag_icon {
+  font-size: 70px;
+  margin-top: 30%;
+}
+.cart_empty button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #0047ff;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.cart_items::-webkit-scrollbar-thumb {
+  background: rgb(144, 144, 144);
+  border-radius: 10px;
+}
+.cart_items::-webkit-scrollbar {
+  height: 5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+.cart_items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12.7%;
+}
+.cart_items .check_out {
+  padding-top: 8px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  align-items: center;
+}
+.check_out button {
+  margin-top: 40px;
+  padding: 5px 10px;
+  background-color: #0047ff;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.check_out p {
+  position: absolute;
+  right: 3%;
+  top: 10px;
+}
+.p_box {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.p_box .cartImg {
+  width: 80px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 15px;
+}
+.prod_detail {
+  margin: 10px;
+  margin-top: 25px;
+  margin-left: -80px;
+  font-size: 17px;
+}
+.qty {
+  margin-top: 20px;
+  margin-left: 30px;
+  border: 1px solid #0047ff;
+  position: relative;
+  height: 25px;
+  font-size: 18.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qty span:nth-child(1) {
+  border-right: 1px solid #1f5dfa;
+}
+.qty span:nth-child(2) {
+  padding: 5px;
+}
+.qty span:nth-child(3) {
+  border-left: 1px solid #1f5dfa;
+}
+.product_qty {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+.remove {
+  position: absolute;
+  right: 2%;
+  margin-top: 60px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.remove_icon,
+.inc,
+.dec {
+  cursor: pointer;
+  color: rgb(220, 0, 0);
+}
+.inc {
+  color: green;
+}

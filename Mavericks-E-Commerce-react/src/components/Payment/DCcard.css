@@ -1,0 +1,22 @@
+.input_cardnumber {
+  display: flex;
+  flex-direction: column;
+}
+.input_cardnumber input {
+  width: 80%;
+}
+.inputs_dccard input {
+  font-size: 18px;
+  height: 30px;
+}
+
+.inputs_dccard p {
+  font-size: 12px;
+}
+.input_other_detail {
+  display: flex;
+  margin-top: 10px;
+}
+.input_other_detail input {
+  width: 45%;
+}

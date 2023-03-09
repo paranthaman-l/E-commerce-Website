@@ -1,0 +1,102 @@
+footer {
+  position: absolute;
+  bottom: -400px;
+  background-color: black;
+  width: 100%;
+  padding: 0.5em;
+  height: 11%;
+}
+.line {
+  width: 30%;
+}
+hr {
+  margin-bottom: 0.5em;
+}
+.icon {
+  margin-right: 1em;
+  color: white;
+}
+.copyright p {
+  text-align: centre;
+  margin-bottom: 0.5em;
+  background-color: lightgray;
+  border-radius: 2px;
+  /* color: white; */
+}
+.iconsf p {
+  background-color: lavender;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  padding: 0;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    position: absolute;
+    bottom: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    position: absolute;
+    /* bottom: 0%; */
+    width: 1390px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 667px) {
+  footer {
+    position: absolute;
+    height: 250px;
+    top: 2250px;
+  }
+}
+@media screen and (max-width: 844px) {
+  footer {
+    position: absolute;
+    height: 400px;
+    top: 2600px;
+  }
+  .iconsf {
+    padding: 90px;
+    position: relative;
+    top: 50px;
+    width: 400px;
+  }
+  hr {
+    margin-bottom: 0.5em;
+    position: absolute;
+    background-color: rgb(202, 233, 233);
+    width: 400px;
+    left: 600px;
+    bottom: 200px;
+  }
+  .line {
+    left: 100px;
+  }
+  .copyright p {
+    text-align: centre;
+    margin-bottom: 0.5em;
+    background-color: lightgray;
+    border-radius: 10px;
+    /* color: white; */
+    position: absolute;
+    left: 1150px;
+    font-size: 50px;
+  }
+  .iconsf p {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer {
+    top: 1800px;
+  }
+}
+@media screen and (max-width: 1184px) {
+  footer {
+    top: 1300px;
+    width: 1380px;
+  }
+}

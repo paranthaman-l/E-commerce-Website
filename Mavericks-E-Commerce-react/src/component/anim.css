@@ -1,0 +1,41 @@
+/* body{
+    margin: 0;
+    border: 0;
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+
+}
+   */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bebas+Neue&family=Kenia&family=La+Belle+Aurore&family=Martian+Mono:wght@100&family=Zen+Dots&display=swap");
+.des {
+  text-align: center;
+  font-family: "Zen Dots", cursive;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*      background:rgba(69, 17, 17, 0.312);   */
+  border-radius: 20px;
+}
+.content {
+  width: 60%;
+  font-size: 30px;
+  padding: 10px;
+  font-family: "Kenia", cursive;
+  position: relative;
+  top: 60px;
+  float: right;
+}
+/* @media screen and (max-width:950px) {
+    .content{
+        height: 130px;
+        width: 313px;
+        font-size: 20px;
+        padding: 0px;
+        font-family: 'Kenia', cursive;
+        position: relative;
+        left: 330px;
+        top: 60px;
+    }
+} */

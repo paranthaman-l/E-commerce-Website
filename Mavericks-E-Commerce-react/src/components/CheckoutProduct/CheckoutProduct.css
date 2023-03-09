@@ -1,0 +1,156 @@
+.left_container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 550px;
+  margin-top: 20px;
+}
+.check_product_details {
+  display: flex;
+}
+.c_box {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 500px;
+  width: 33vw;
+  margin-right: -80px;
+  border-radius: 10px;
+}
+.check_product_details {
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px solid rgba(14, 30, 37, 0.22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.product_imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_imgs ul {
+  display: flex;
+  width: 250px;
+  overflow-x: scroll;
+}
+.product_imgs ul::-webkit-scrollbar {
+  height: 5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+/* Ordered Food */
+
+.product_imgs p {
+  cursor: pointer;
+}
+.product_imgs li:not(:first-child) {
+  margin-left: -25px;
+}
+.product_imgs ul::-webkit-scrollbar-thumb {
+  background: rgb(144, 144, 144);
+  border-radius: 10px;
+}
+.product_imgs ul li img {
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.total_price h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.coupon {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coupon_box {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  margin-top: -25px;
+  justify-content: center;
+  align-items: center;
+  border: 1.3px dashed rgba(0, 0, 0, 0.5);
+}
+.coupon_box input {
+  text-indent: 20px;
+  height: 30px;
+  width: 170px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.coupon_icon {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+.total_amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40%;
+}
+.total_amount p {
+  padding: 5px 10px;
+  margin: 0px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  border: 0.5px dashed rgba(0, 0, 0, 0.5);
+}
+.t_a {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.total {
+  font-size: 19px;
+}
+@media screen and (max-width: 950px) {
+  .left_container {
+    width: 70vw;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .left_container .c_box {
+    width: 70%;
+    margin: 0px 80px;
+    position: absolute;
+    top: 95px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .product_imgs ul {
+    width: 200px;
+  }
+  .left_container {
+    width: 70vw;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .left_container .c_box {
+    width: 85%;
+    margin: 0px 80px;
+    position: absolute;
+    top: 95px;
+  }
+}

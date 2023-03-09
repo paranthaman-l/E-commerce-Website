@@ -1,0 +1,87 @@
+.paymentsuccessbox {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  left: 30%;
+  top: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.finaltotal {
+  position: absolute;
+  color: black;
+  size: 10px;
+  top: 70%;
+  left: 35%;
+}
+.finaltotal2 {
+  position: absolute;
+  color: black;
+  size: 10px;
+  top: 70%;
+  left: 38%;
+}
+.checkmark {
+  color: #12520c;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 45%;
+  top: 7%;
+  background-color: #96ab76fa;
+  border: solid white 1px;
+  padding-left: 7px;
+  border-radius: 50%;
+}
+.bankname {
+  position: absolute;
+  color: black;
+  size: 10px;
+  top: 80%;
+  left: 32%;
+}
+.bankname2 {
+  position: absolute;
+  color: black;
+  size: 10px;
+  top: 80%;
+  left: 33%;
+}
+.tsid2 {
+  position: absolute;
+  color: black;
+  size: 12px;
+  top: 45%;
+  left: 32%;
+}
+.tsid3 {
+  position: absolute;
+  color: black;
+  size: 12px;
+  top: 45%;
+  left: 34%;
+}
+.ps2 {
+  font-size: 45px;
+  position: absolute;
+  top: 25%;
+  color: #12520c;
+  left: 15%;
+}
+.ps3 {
+  font-size: 45px;
+  position: absolute;
+  top: 25%;
+  color: #12520c;
+  left: 27%;
+}
+.back2home {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  position: absolute;
+  left: 2%;
+  top: 12%;
+}

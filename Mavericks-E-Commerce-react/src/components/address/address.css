@@ -1,0 +1,72 @@
+.Address {
+  position: absolute;
+  height: 545px;
+  width: 500px;
+
+  background-image: url("https://res.cloudinary.com/doz5njr9h/image/upload/v1672853233/istockphoto-1365215537-1024x1024-transformed_wtcvd0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45% 100%;
+
+  left: 400px;
+  top: 135px;
+  border-color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.Address .top {
+  position: absolute;
+  height: 60px;
+  border-radius: 20px;
+  left: px;
+  background: none;
+  border-bottom: 2px solid black;
+}
+.Address .top h3 {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+}
+.Address .center {
+  position: absolute;
+  height: 160px;
+  width: 502px;
+  left: -1px;
+  top: 92px;
+  border-bottom: 2px solid black;
+}
+.Address .center .location {
+  font-size: 25px;
+  color: rgb(255, 0, 0);
+}
+
+.Address .center p {
+  margin-left: 20px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: rgb(0, 0, 0);
+}
+.Address h1 button {
+  margin-left: 20px;
+  position: absolute;
+  top: 135px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.Address .backarrow {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-size: 30px;
+  cursor: pointer;
+
+  color: yellow;
+}
+iframe {
+  position: absolute;
+  top: 250px;
+  left: -3px;
+  border-radius: 20px;
+}

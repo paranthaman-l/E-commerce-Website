@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
+.master1 {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.3)
+    url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg?w=2000");
+  /* background: linear-gradient(to bottom, #e6cece, #302b63); */
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  display: flex;
+}
+.text_left{
+  width: 55%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 19%;
+}
+.right_login{
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 100px;
+}
+.text_left h3{
+  text-align: center;
+  margin-top: 5%;
+  width: 700px;
+}
+.text_left h1{
+  font-size: 60px;
+}
+#mainform {
+  background-color: rgba(254, 254, 254, 0.589);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  font-family: "Heebo", sans-serif;
+  background-position: center;
+  width: 400px;
+  height: 340px;
+  border-radius: 10px;
+}
+#logobox {
+
+}
+#logo {
+  height: 120px;
+}
+#loginbox {
+  padding-top: 10px;
+  text-align: center;
+}
+.mailandotp {
+  margin-top: 20px;
+}
+#pw {
+  height: 30px;
+  width: 200px;
+  background-color: rgba(222, 222, 222, 0.557);
+  box-shadow: 1px 4px rgba(62, 62, 62, 0.5), 3px 2px rgba(0, 0, 0, 0.5),
+    1px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-indent: 10px;
+}
+#userid {
+  height: 30px;
+  width: 200px;
+  background-color: rgba(222, 222, 222, 0.557);
+  box-shadow: 1px 4px rgba(62, 62, 62, 0.5), 3px 2px rgba(0, 0, 0, 0.5),
+    1px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-indent: 10px;
+}
+::placeholder {
+  color: rgb(250, 249, 249);
+  opacity: 0.85;
+}
+/* #generateotp
+{
+    height: 25px;
+    width: 110px;
+    opacity: 1;
+    margin-bottom: 10px;
+    background-color: rgba(9, 185, 229, 0.603);
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.500), 3px 2px rgba(0, 0, 0, 0.500), 1px 3px rgba(0, 0, 0, 0.500);
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+#verify {
+  height: 25px;
+  width: 205px;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(9, 185, 229, 0.603);
+  box-shadow: 1px 4px rgba(0, 0, 0, 0.5), 3px 2px rgba(0, 0, 0, 0.5),
+    1px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+  border: none;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  border-radius: 5px;
+}
+#newuser {
+  font-size: 13px;
+  color: rgba(0, 1, 7, 0.753);
+}
+#signup {
+  font-size: 13px;
+  color: rgba(9, 24, 229, 0.753);
+}
+#googlebox {
+  width: 210px;
+  height: 40px;
+  margin-top: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+#or {
+  width: 85%;
+  padding-left: 20px;
+  margin: 10px;
+  color: rgb(17, 17, 15);
+}
+#googleimg {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+#verify:hover {
+  box-shadow: 1px 4px rgba(62, 62, 62, 0.5), 3px 2px rgba(0, 0, 0, 0.5),
+    1px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(64, 238, 72);
+  transform: scale(1.05);
+}
+#googlebox:hover {
+  box-shadow: 1px 4px rgba(62, 62, 62, 0.5), 3px 2px rgba(0, 0, 0, 0.5),
+    1px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+/* #generateotp:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 4px rgba(62, 62, 62, 0.500), 3px 2px rgba(0, 0, 0, 0.500), 1px 3px rgba(0, 0, 0, 0.500);
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    background-color: rgb(64, 238, 72);
+} */
+#welcome {
+  font-family: "Heebo", sans-serif;
+  padding-top: 20px;
+  font-size: 15px;
+  padding-right: 5px;
+}

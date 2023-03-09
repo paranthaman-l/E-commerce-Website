@@ -1,0 +1,139 @@
+.Status {
+  position: absolute;
+  height: 545px;
+  width: 500px;
+  background-image: url("https://res.cloudinary.com/doz5njr9h/image/upload/v1670837691/Order-transformed_bk5zgn.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% 20%;
+  left: 400px;
+  top: 135px;
+  border-color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+  transform-origin: right;
+}
+.Status h1 {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  font-size: 22px;
+}
+.Status h2 {
+  position: absolute;
+  top: 55px;
+  left: 155px;
+  font-size: 15px;
+  color: green;
+}
+.Status .backarrow {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.Status .heart {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 30px;
+  color: red;
+}
+.Status .bottom ul {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  top: 145px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.Status .bottom ul li {
+  list-style: none;
+  margin: 35px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.clock1 {
+  margin-right: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.border11 {
+  height: 80px;
+
+  border-left: 2px dashed black;
+  position: absolute;
+  top: 207px;
+  left: 65px;
+}
+.border22 {
+  height: 80px;
+  border-left: 2px dashed black;
+  position: absolute;
+  top: 301px;
+  left: 65px;
+}
+.c1 {
+  color: red;
+}
+.c2 {
+  color: blue;
+}
+.c3 {
+  color: green;
+}
+
+.Status .timings {
+  position: absolute;
+  top: 130px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  display: flex;
+  left: 50px;
+  font-size: small;
+}
+.Status .timings ul {
+  list-style-type: none;
+}
+.Status .timings ul li {
+  list-style: none;
+  margin: 80px 0;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.tracking {
+  position: absolute;
+  background-color: #00cb03;
+  cursor: pointer;
+  left: 170px;
+  width: 90px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.delevery {
+  position: absolute;
+  background-color: #458eed9c;
+  left: 60px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  bottom: 5px;
+  cursor: pointer;
+}
+.Status img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+}

@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Merriweather:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  font-family: "Merriweather", serif;
+  font-family: "Lora", serif;
+  background-color: rgba(21, 235, 124, 0);
+  height: 100vh;
+  width: 100vw;
+  margin-top: 60px;
+}
+.page a {
+  color: black;
+}
+.contents {
+  background: url("https://res.cloudinary.com/do4m8xtim/image/upload/v1674832892/e879ae6a5fabbad0078327c901b6fee0_ylciwe.jpg");
+  background-color: #a7b7c2d2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+  border-right: 2.5px solid rgb(0, 0, 0);
+  /* background-blend-mode: darken; */
+}
+
+.contents img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  top: 40px;
+  left: 50px;
+  border: 2px solid black;
+}
+.contents .cancel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 160%;
+}
+.contents .cancel:hover {
+  transform: scale(1.5);
+  border-radius: 20px;
+  background-size: 30px;
+  background-color: rgb(26, 255, 0);
+}
+.contents h1 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 70px;
+  left: 170px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.contents .border1 {
+  position: absolute;
+
+  border-top-style: none;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.556);
+  width: 400px;
+  height: 40px;
+  top: 130px;
+}
+.list ul {
+  position: absolute;
+  list-style-type: none;
+  top: 190px;
+  width: 80%;
+}
+.list ul li {
+  padding: 7px 14px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+  /* color:  white; */
+}
+.contents .border2 {
+  position: absolute;
+  border-top-style: none;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.577);
+  width: 400px;
+  height: 40px;
+  bottom: 230px;
+}
+.list ul li:hover {
+  /* width: 400px; */
+  background-color: rgba(0, 0, 0, 0.144);
+  transform: scale(1.03);
+}
+.contents .cancel:hover {
+  background-size: 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.858);
+  transform: scale(1.05);
+  color: green;
+  cursor: pointer;
+}
+.page .contents .edit {
+  position: absolute;
+  top: 120px;
+  font-size: 23px;
+  left: 150px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.page .contents .edit:hover {
+  transform: scale(1.5);
+  color: rgb(37, 37, 39);
+}
+
+.logout {
+  position: absolute;
+  bottom: 150px;
+  left: 25%;
+  width: 200px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout .logout-icon {
+  font-size: 35px;
+  color: rgb(15, 13, 13);
+  position: absolute;
+  left: -45px;
+}
+.logout button {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.list ul li p {
+  margin: none;
+  margin-left: 27px;
+}
+.page .logout .logout-icon {
+  color: rgb(184, 11, 103);
+}
+.page .logout .logout-icon:hover {
+  background-size: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.167);
+  transform: scale(1.05);
+  color: green;
+  cursor: pointer;
+}
+.one {
+  color: rgb(67, 64, 255);
+  font-size: 30px;
+}
+.two {
+  color: rgb(250, 0, 0);
+  font-size: 30px;
+}
+.three {
+  color: rgb(2, 60, 1);
+  font-size: 30px;
+}
+.four {
+  color: rgb(11, 201, 211);
+  font-size: 30px;
+}
+.five {
+  color: rgb(238, 33, 224);
+  font-size: 30px;
+}
+.six {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.edit_btn {
+  font-size: 25px;
+  position: absolute;
+  right: -5%;
+  cursor: pointer;
+  top: 15px;
+}

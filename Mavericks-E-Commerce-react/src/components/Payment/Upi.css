@@ -1,0 +1,39 @@
+.Upi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.Upi input {
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+  width: 150px;
+  text-indent: 10px;
+  font-size: 19px;
+  background-color: rgba(218, 218, 218, 0.338);
+  background-color: rgba(218, 218, 218, 0.6);
+}
+.Upi input:focus {
+  border-bottom: 2px solid #2e00d3;
+}
+.Upi select {
+  height: 35px;
+  border-radius: 5px;
+  border: 1.5px solid #3a03ff;
+  background-color: transparent;
+  font-size: 17px;
+}
+.Upi select option {
+  font-size: 16px;
+}
+.Upi .upi_title {
+  position: absolute;
+  top: 56%;
+  right: 30%;
+}

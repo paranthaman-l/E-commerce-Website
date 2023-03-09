@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Kenia&family=La+Belle+Aurore&family=Zen+Dots&display=swap");
+.fadebox {
+  margin: 50px 0 0;
+  width: 28%;
+  height: 400px;
+  left: 32px;
+  top: 88px;
+  border-radius: 50px;
+  padding: 15px;
+  box-shadow: black 5px 2px 2px;
+  border: 1px solid;
+  /* background-image: linear-gradient(
+    to top,
+    rgba(234, 117, 101, 0.596),
+    rgba(118, 75, 162, 0.404)
+  ); */
+  background-color: rgba(173, 216, 230, 0.342);
+  position: relative;
+}
+.fadebox span {
+  font-size: 27px;
+  font-family: "Zen Dots", cursive;
+}
+.fadebox h1 {
+  font-family: "Zen Dots", cursive;
+}

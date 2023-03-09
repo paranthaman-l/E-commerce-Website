@@ -1,0 +1,1096 @@
+* {
+  box-sizing: border-box;
+}
+.add2cart {
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #15093fef;
+  border: none;
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+.back2now{
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #000b01f8;
+  border: none;
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 21.5%;
+}
+.buy2now {
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #116214f8;
+  border: none;
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 14%;
+}
+.total_display {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 120vh;
+}
+#tostrike {
+  text-decoration: line-through;
+}
+.masterdetails {
+  background-attachment: green !important;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+#imagedis {
+  margin-top: 80px;
+  padding: 50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  width: 30%;
+  height: 500px;
+}
+#imagedis:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.02);
+}
+#prodname2 {
+  display: none;
+}
+#prodname {
+  text-align: left;
+  position: absolute;
+  font-size: 30px;
+  top: 23%;
+  left: 40%;
+  color: rgb(0, 0, 0);
+}
+#prodstore {
+  text-align: left;
+  position: absolute;
+  font-size: 20px;
+  top: 35.5%;
+  left: 40%;
+  color: #4594a0;
+}
+#prodstars {
+  text-align: left;
+  position: absolute;
+  font-size: 15px;
+  padding: 3px;
+  padding-left: 5px;
+  top: 42%;
+  letter-spacing: 1.5px;
+  padding-right: 30px;
+  left: 40%;
+  color: rgb(28, 28, 29);
+}
+#hr2,
+#hr3 {
+  display: none;
+}
+#noofreviews {
+  text-align: right;
+  position: absolute;
+  font-size: 15px;
+  top: 42.6%;
+  letter-spacing: 1.5px;
+  left: 46.9%;
+  color: rgb(28, 28, 29);
+}
+#hr1 {
+  position: absolute;
+  font-size: 20px;
+  top: 45%;
+  letter-spacing: 1.5px;
+  left: 40%;
+  color: rgb(28, 28, 29);
+  margin-bottom: 20px;
+}
+#strikedmrp {
+  position: absolute;
+  font-size: 18px;
+  top: 50%;
+  letter-spacing: 1.5px;
+  left: 41.8%;
+  color: rgb(28, 28, 29);
+  margin-bottom: 20px;
+}
+#prodnames {
+  display: none;
+}
+#actualmrp {
+  position: absolute;
+  font-size: 18px;
+  top: 54%;
+  letter-spacing: 1.5px;
+  left: 42.6%;
+  color: rgb(245, 2, 2);
+  margin-bottom: 20px;
+}
+#savedmrp {
+  position: absolute;
+  font-size: 18px;
+  top: 58%;
+  letter-spacing: 1.5px;
+  left: 40%;
+  color: rgb(245, 2, 2);
+  margin-bottom: 20px;
+}
+#taxline {
+  position: absolute;
+  font-size: 15px;
+  top: 62%;
+  letter-spacing: 1.5px;
+  left: 47.2%;
+  color: rgb(28, 28, 29);
+  margin-bottom: 20px;
+}
+#otheroffers {
+  position: absolute;
+  font-size: 18px;
+  top: 6%;
+  letter-spacing: 1.5px;
+  left: 23%;
+  color: rgb(245, 2, 2);
+  margin-bottom: 20px;
+}
+#otheroffers2 {
+  position: absolute;
+  font-size: 17.8px;
+  top: 6%;
+  letter-spacing: 1.5px;
+  left: 47.2%;
+  color: rgb(28, 28, 29);
+  margin-bottom: 20px;
+}
+.productoffers {
+  position: absolute;
+  top: 68%;
+  left: 40%;
+  width: 450px;
+  height: 170px;
+  border: 2px solid black;
+}
+#divider1 {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  border: 0.1px solid black;
+}
+#blue1 {
+  position: absolute;
+  font-size: 18px;
+  top: 46%;
+  left: 57%;
+  color: #126a78;
+  margin-bottom: 20px;
+}
+#bankoffers {
+  position: absolute;
+  font-size: 18px;
+  top: 30%;
+  letter-spacing: 1.5px;
+  left: 5%;
+  color: rgb(245, 2, 2);
+  margin-bottom: 20px;
+}
+#bankoffers2 {
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  text-indent: 150px;
+  top: 30%;
+  left: 5%;
+  color: rgb(28, 28, 29);
+  margin-bottom: 20px;
+}
+#divider2 {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  border: 0.1px solid black;
+}
+#partneroffers2 {
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  text-indent: 150px;
+  top: 70%;
+  left: 5%;
+  color: rgb(28, 28, 29);
+  margin-bottom: 20px;
+}
+#blue2 {
+  position: absolute;
+  font-size: 18px;
+  top: 85%;
+  left: 27%;
+  color: #126a78;
+  margin-bottom: 20px;
+}
+#partneroffers {
+  position: absolute;
+  font-size: 18px;
+  top: 70%;
+  letter-spacing: 1.5px;
+  left: 5%;
+  color: rgb(245, 2, 2);
+  margin-bottom: 20px;
+}
+
+/* For mobile view  */
+
+@media only screen and (max-width: 320px) {
+  .emptynavbar {
+    width: 100%;
+  }
+  #imagedis {
+    top: 1%;
+    width: 100%;
+  }
+  #prodname2 {
+    display: none;
+  }
+  #prodname {
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    font-size: 20px;
+  }
+  #prodstore {
+    position: absolute;
+    font-size: 20px;
+    top: 129%;
+    left: 2%;
+    color: #4594a0;
+  }
+  #prodstars {
+    text-align: left;
+    position: absolute;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    padding-left: 5px;
+    top: 133%;
+    background-color: rgb(241, 241, 241);
+    letter-spacing: 1.5px;
+    left: 2%;
+    color: rgb(28, 28, 29);
+  }
+  #noofreviews {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    top: 136%;
+    letter-spacing: 1.5px;
+    left: 23%;
+    color: rgb(28, 28, 29);
+  }
+  #hr1,
+  #hr2 {
+    display: none;
+  }
+  #hr3 {
+    position: absolute;
+    font-size: 20px;
+    top: 139%;
+    letter-spacing: 1.5px;
+    left: 2%;
+    width: 20%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #strikedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 144%;
+    letter-spacing: 1.5px;
+    left: 9%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #actualmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 148%;
+    letter-spacing: 1.5px;
+    left: 12%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #savedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 152%;
+    letter-spacing: 1.5px;
+    left: 2%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #taxline {
+    position: absolute;
+    font-size: 15px;
+    top: 156%;
+    letter-spacing: 1.5px;
+    left: 32%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #otheroffers {
+    position: absolute;
+    font-size: 18px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 10%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #otheroffers2 {
+    position: absolute;
+    font-size: 17.8px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 47.2%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  .productoffers {
+    position: absolute;
+    top: 162%;
+    left: 2%;
+    width: 300px;
+    height: 170px;
+    border: 2px solid black;
+  }
+  #divider1 {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    border: 0.1px solid black;
+  }
+  #blue1 {
+    display: none;
+  }
+
+  #bankoffers {
+    position: absolute;
+    font-size: 16px;
+    top: 28%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #bankoffers2 {
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 135px;
+    top: 28%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #divider2 {
+    width: 100%;
+    position: absolute;
+    top: 64%;
+    border: 0.1px solid black;
+  }
+  #partneroffers2 {
+    position: absolute;
+    font-size: 16.5px;
+    text-align: left;
+    text-indent: 130px;
+    top: 70%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #blue2 {
+    display: none;
+  }
+  #partneroffers {
+    position: absolute;
+    font-size: 16px;
+    top: 70%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #prodnames {
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    display: block;
+    font-size: 17px;
+  }
+}
+
+/* FOR IPAD VIEW  */
+
+@media only screen and (min-width: 710px) and (max-width: 1024px) {
+  .emptynavbar {
+    width: 100%;
+  }
+  #imagedis {
+    height: 88%;
+    object-fit: cover;
+  }
+  #prodname {
+    display: none;
+  }
+  #prodnames {
+    display: block;
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    font-size: 17px;
+  }
+  #prodstore {
+    position: absolute;
+    font-size: 20px;
+    top: 124%;
+    left: 2%;
+    color: #4594a0;
+  }
+  #prodstars {
+    text-align: left;
+    position: absolute;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    padding-left: 5px;
+    top: 128%;
+    background-color: rgb(241, 241, 241);
+    letter-spacing: 1.5px;
+    left: 2%;
+    color: rgb(28, 28, 29);
+  }
+  #noofreviews {
+    text-align: left;
+    position: absolute;
+    font-size: 18px;
+    top: 136%;
+    letter-spacing: 1.5px;
+    left: 2%;
+    color: rgb(28, 28, 29);
+  }
+  #hr1,
+  #hr3 {
+    display: none;
+  }
+  #hr2 {
+    position: absolute;
+    font-size: 20px;
+    top: 137%;
+    display: block;
+    letter-spacing: 1.5px;
+    left: 2%;
+    width: 20%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #strikedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 142%;
+    letter-spacing: 1.5px;
+    left: 9%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #actualmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 146%;
+    letter-spacing: 1.5px;
+    left: 10%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #savedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 150%;
+    letter-spacing: 1.5px;
+    left: 5.5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #taxline {
+    position: absolute;
+    font-size: 15px;
+    top: 154%;
+    letter-spacing: 1.5px;
+    left: 18%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #otheroffers {
+    position: absolute;
+    font-size: 18px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 10%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #otheroffers2 {
+    position: absolute;
+    font-size: 17.8px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 47.2%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  .productoffers {
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    width: 300px;
+    height: 170px;
+    border: 2px solid black;
+  }
+  #divider1 {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    border: 0.1px solid black;
+  }
+  #blue1 {
+    display: none;
+  }
+  #bankoffers {
+    position: absolute;
+    font-size: 16px;
+    top: 28%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #bankoffers2 {
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 135px;
+    top: 28%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #divider2 {
+    width: 100%;
+    position: absolute;
+    top: 64%;
+    border: 0.1px solid black;
+  }
+  #partneroffers2 {
+    position: absolute;
+    font-size: 16.5px;
+    text-align: left;
+    text-indent: 130px;
+    top: 70%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #blue2 {
+    display: none;
+  }
+  #partneroffers {
+    position: absolute;
+    font-size: 16px;
+    top: 70%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+}
+
+/* ipad and phone middle view */
+
+@media only screen and (min-width: 321px) and (max-width: 709px) {
+  .emptynavbar {
+    width: 100%;
+  }
+  #imagedis {
+    object-fit: cover;
+  }
+  #prodname2 {
+    display: none;
+  }
+  #prodname {
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    font-size: 20px;
+  }
+  #prodstore {
+    position: absolute;
+    font-size: 20px;
+    top: 129%;
+    left: 2%;
+    color: #4594a0;
+  }
+  #prodstars {
+    text-align: left;
+    position: absolute;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    padding-left: 5px;
+    top: 133%;
+    background-color: rgb(241, 241, 241);
+    letter-spacing: 1.5px;
+    left: 2%;
+    color: rgb(28, 28, 29);
+  }
+  #noofreviews {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    top: 136%;
+    letter-spacing: 1.5px;
+    left: 23%;
+    color: rgb(28, 28, 29);
+  }
+  #hr1,
+  #hr2 {
+    display: none;
+  }
+  #hr3 {
+    position: absolute;
+    font-size: 20px;
+    top: 139%;
+    letter-spacing: 1.5px;
+    left: 2%;
+    display: block;
+    width: 20%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #strikedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 144%;
+    letter-spacing: 1.5px;
+    left: 9%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #actualmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 148%;
+    letter-spacing: 1.5px;
+    left: 12%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #redmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 148%;
+    letter-spacing: 1.5px;
+    left: 32%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #savedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 152%;
+    letter-spacing: 1.5px;
+    left: 2%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #taxline {
+    position: absolute;
+    font-size: 15px;
+    top: 156%;
+    letter-spacing: 1.5px;
+    left: 32%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #otheroffers {
+    position: absolute;
+    font-size: 18px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 10%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #otheroffers2 {
+    position: absolute;
+    font-size: 17.8px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 47.2%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  .productoffers {
+    position: absolute;
+    top: 162%;
+    left: 2%;
+    width: 300px;
+    height: 170px;
+    border: 2px solid black;
+  }
+  #divider1 {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    border: 0.1px solid black;
+  }
+  #blue1 {
+    display: none;
+  }
+  #bankoffers {
+    position: absolute;
+    font-size: 16px;
+    top: 28%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #bankoffers2 {
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 135px;
+    top: 28%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #divider2 {
+    width: 100%;
+    position: absolute;
+    top: 64%;
+    border: 0.1px solid black;
+  }
+  #partneroffers2 {
+    position: absolute;
+    font-size: 16.5px;
+    text-align: left;
+    text-indent: 130px;
+    top: 70%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #blue2 {
+    display: none;
+  }
+  #partneroffers {
+    position: absolute;
+    font-size: 16px;
+    top: 70%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1179px) {
+  #imagedis {
+    margin-top: 140px;
+    padding: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    height: 500px;
+  }
+  #hide {
+    display: none;
+  }
+
+  #imagedis:hover + #hide {
+    display: block;
+    position: absolute;
+    top: 32%;
+    font-size: 20px;
+    left: 5.5%;
+    height: 30px;
+    width: 100px;
+    border: none solid black;
+    color: white;
+    background-color: rgb(235, 40, 40);
+  }
+  #imagedis:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.02);
+  }
+  #prodname2 {
+    display: none;
+  }
+  #prodname {
+    text-align: left;
+    position: absolute;
+    font-size: 30px;
+    top: 23%;
+    left: 40%;
+    color: rgb(0, 0, 0);
+  }
+  #prodstore {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    top: 35.5%;
+    left: 40%;
+    color: #4594a0;
+  }
+  #prodstars {
+    text-align: left;
+    position: absolute;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    padding-left: 5px;
+    top: 39.5%;
+    background-color: rgb(241, 241, 241);
+    letter-spacing: 1.5px;
+    left: 40%;
+    color: rgb(28, 28, 29);
+  }
+  #noofreviews {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    top: 41.5%;
+    letter-spacing: 1.5px;
+    left: 45.5%;
+    color: rgb(28, 28, 29);
+  }
+  #hr1 {
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    letter-spacing: 1.5px;
+    left: 40%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #strikedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    letter-spacing: 1.5px;
+    left: 41.8%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #actualmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 54%;
+    letter-spacing: 1.5px;
+    left: 42.6%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #savedmrp {
+    position: absolute;
+    font-size: 18px;
+    top: 58%;
+    letter-spacing: 1.5px;
+    left: 40%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #taxline {
+    position: absolute;
+    font-size: 15px;
+    top: 62%;
+    letter-spacing: 1.5px;
+    left: 47.2%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #otheroffers {
+    position: absolute;
+    font-size: 18px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 23%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #otheroffers2 {
+    position: absolute;
+    font-size: 17.8px;
+    top: 6%;
+    letter-spacing: 1.5px;
+    left: 47.2%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  .productoffers {
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    width: 450px;
+    height: 170px;
+    border: 2px solid black;
+  }
+  #divider1 {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    border: 0.1px solid black;
+  }
+  #blue1 {
+    position: absolute;
+    font-size: 18px;
+    top: 46%;
+    left: 57%;
+    color: #126a78;
+    margin-bottom: 20px;
+  }
+  #bankoffers {
+    position: absolute;
+    font-size: 18px;
+    top: 30%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+  #bankoffers2 {
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 150px;
+    top: 30%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #divider2 {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    border: 0.1px solid black;
+  }
+  #partneroffers2 {
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 150px;
+    top: 70%;
+    left: 5%;
+    color: rgb(28, 28, 29);
+    margin-bottom: 20px;
+  }
+  #blue2 {
+    position: absolute;
+    font-size: 18px;
+    top: 85%;
+    left: 27%;
+    color: #126a78;
+    margin-bottom: 20px;
+  }
+  #partneroffers {
+    position: absolute;
+    font-size: 18px;
+    top: 70%;
+    letter-spacing: 1.5px;
+    left: 5%;
+    color: rgb(245, 2, 2);
+    margin-bottom: 20px;
+  }
+}
+
+/* similarproducts section */
+.similarproducts {
+  position: fixed;
+  right: 0%;
+  top: 80px;
+  width: 29%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 300px;
+}
+.similarProductBox {
+  height: 180px;
+  /* background-color: #126A78; */
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+.similarProductBox .similarProductImage img {
+  width: 125px;
+  object-fit: cover;
+}
+.add_review {
+  cursor: pointer;
+}
+.give_rating {
+  position: absolute;
+  left: 5%;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.give_rating img {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.give_rating form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.give_rating form input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  text-indent: 10px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+.give_rating .add_review {
+  font-size: 24px;
+}

@@ -1,0 +1,196 @@
+.Wallet {
+  position: absolute;
+  height: 645px;
+  width: 500px;
+  background-image: url("https://res.cloudinary.com/doz5njr9h/image/upload/v1670847533/ma-transformed_n5rtwc.jpg");
+  background-size: cover;
+  left: 400px;
+  top: 130px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 50% 20%;
+  border: 2px solid black;
+  border-radius: 10px;
+  transform-origin: right;
+}
+.Wallet .backarrow {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.Wallet h6 {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(200, 255, 0);
+}
+.Wallet h6 .settings {
+  position: absolute;
+  top: -5px;
+  right: 75px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(190, 236, 27);
+}
+.balance ul li {
+  list-style-type: none;
+  margin: 0 28px;
+  font-size: 40px;
+  margin-top: 140px;
+}
+.balance ul {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.Wallet .balance {
+  position: absolute;
+  left: 44px;
+  top: 50px;
+}
+.Wallet .point {
+  position: absolute;
+  left: 56px;
+  top: 230px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Wallet .point ul li {
+  list-style-type: none;
+  margin: 0 4px;
+  width: 70px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.Wallet .point ul {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.Wallet .center {
+  position: absolute;
+  height: 200px;
+  width: 370px;
+  border-radius: 10px;
+  top: 100px;
+  right: 70px;
+  background-color: rgba(240, 248, 255, 0.716);
+  box-shadow: rgba(54, 255, 141, 0.12) 0px 2px 4px 0px,
+    rgba(15, 183, 255, 0.32) 0px 2px 16px 0px;
+}
+.center h4 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.center h5 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  font-size: 35px;
+}
+.center .down {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+.Wallet .bottom {
+  position: absolute;
+  height: 290px;
+  width: 365px;
+  background-color: rgba(255, 255, 255, 0.685);
+  top: 350px;
+  left: 65px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.Wallet .bottom h4 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Wallet .bottom h5 {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: 2px rgb(0, 0, 0);
+}
+.Wallet .down {
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  font-size: 20px;
+}
+.Wallet .bottom h3 {
+  position: absolute;
+  top: 105px;
+  left: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Wallet .bottom h2 {
+  position: absolute;
+  top: 105px;
+  right: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+.Wallet .bottom .money ul li {
+  list-style-type: none;
+  margin: 0 20px;
+}
+.Wallet .bottom .money ul {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.Wallet .bottom .money {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  cursor: pointer;
+}
+.Wallet .bottom .proceed {
+  position: absolute;
+  bottom: 0;
+  background-color: #007acc;
+  height: 50px;
+  width: 365px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Wallet .bottom .proceed:hover {
+  background-color: red;
+  transform: scale(1.01);
+}
+.bal {
+  color: red;
+}
+.bank {
+  color: blue;
+}
+.gift {
+  color: blueviolet;
+}
+.balance .money {
+  color: rgb(251, 180, 0);
+}

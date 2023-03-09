@@ -1,0 +1,31 @@
+.Wallet1 {
+  display: flex;
+  width: 100%;
+}
+.Wallet1 ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: -15px;
+  width: 50%;
+  margin-left: 20%;
+}
+.Wallet1 ul li {
+  display: flex;
+  align-items: center;
+  margin: 1px 0px;
+  padding: 4px 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+.Wallet1 ul li:hover {
+  background-color: #2e00d34f;
+  transform: scale(1.015);
+  border-radius: 5px;
+}
+.pay-activ {
+  transform: scale(1.015);
+  background-color: #2e00d34f;
+  border-radius: 5px;
+}
